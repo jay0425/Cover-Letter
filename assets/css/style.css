@@ -3,8 +3,16 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans KR', sans-serif;
+  /* font-family: 'IBM Plex Sans KR', sans-serif; */
+  font-family: 'CookieRun-Regular';
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }
 
