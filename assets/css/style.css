@@ -142,6 +142,11 @@ section {
   align-items: center;
 }
 
+#portfolio ul {
+  list-style: none;
+  display: flex;
+}
+
 #about-me-contents {
   padding: 20px;
   display: flex;
