@@ -61,8 +61,15 @@ main {
   padding: 0 15rem;
 }
 
-#intro {
+h2 {
+  font-size: 50px;
+}
+
+section {
   padding-top: 6rem;
+}
+
+#intro {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,10 +81,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#intro h1 {
-  font-size: 50px;
 }
 
 #intro h4 {
@@ -121,12 +124,7 @@ main {
 }
 
 #skill {
-  padding-top: 6rem;
   width: 100%;
-}
-
-#skill h1 {
-  font-size: 50px;
 }
 
 #skill ul {
@@ -142,14 +140,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#about-me {
-  padding-top: 6rem;
-}
-
-#about-me h1 {
-  font-size: 50px;
 }
 
 #about-me-contents {
