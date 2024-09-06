@@ -155,6 +155,47 @@ section {
   display: flex;
 }
 
+.container {
+  perspective: 1000px;
+}
+
+.box {
+  width: 100%;
+  height: 28rem;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.container:hover .box {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.back {
+  background-color: lightcoral;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
 #about-me-contents {
   padding: 20px;
   display: flex;
