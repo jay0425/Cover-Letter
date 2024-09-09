@@ -164,12 +164,9 @@ section {
   transition: transform 1s;
 }
 
-.container .box {
+.container:hover .box {
   transform: rotateY(180deg);
 }
-/* .container:hover .box {
-  transform: rotateY(180deg);
-} */
 
 .front,
 .back {
@@ -196,8 +193,6 @@ section {
   display: flex;
   flex-direction: column;
   text-align: start;
-  /* justify-content: center; */
-  /* align-items: center */
   padding: 1rem 1.5rem;
   font-size: 24px;
 }
