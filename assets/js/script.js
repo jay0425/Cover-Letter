@@ -1,5 +1,5 @@
 var swiper = new Swiper('.mySwiper', {
-  slidesPerView: 3.8,
+  slidesPerView: 3.6,
   centeredSlides: true,
   spaceBetween: 30,
   pagination: {
@@ -35,4 +35,17 @@ document.querySelector('.append-2-slides').addEventListener('click', function (e
     '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
     '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
   ]);
+});
+
+// ---------------------------------------------------------------------------------------------
+
+var swiper2 = new Swiper('.mySwiper2', {
+  direction: 'vertical',
+  slidesPerView: 1,
+  spaceBetween: 30,
+  mousewheel: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 });

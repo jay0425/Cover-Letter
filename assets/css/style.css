@@ -7,6 +7,7 @@
 
 * {
   margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: 'GowunBatang-Regular';
   font-weight: 400;
@@ -124,7 +125,6 @@ section {
 }
 
 #intro img {
-  /* width: 20vw; */
   border-radius: 15px;
 }
 
@@ -167,6 +167,7 @@ section {
 /* .container .box {
   transform: rotateY(180deg);
 } */
+
 .container:hover .box {
   transform: rotateY(180deg);
 }
@@ -202,12 +203,18 @@ section {
 
 .back-wrapper h4 {
   color: #2980b9;
+  font-size: 1.3rem;
+}
+
+.back-wrapper h6 {
+  font-size: 0.8rem;
 }
 
 .back-titles {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 0.5rem;
 }
 
 .back-hr {
@@ -244,7 +251,7 @@ section {
   text-align: center;
   margin: 0 0.5rem 0 0;
   padding: 0.1rem 0.8rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   background-color: pink;
   border: 1px solid pink;
@@ -291,4 +298,61 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    color: pink;
+  }
+
+  header {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+
+    width: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+  }
+
+  #logo {
+    font-size: 1.5rem;
+  }
+
+  main {
+    padding: 0 1rem 0 1rem;
+  }
+
+  #logo-nav {
+    display: flex;
+    gap: 1rem;
+
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #logo-nav h3 {
+    font-size: 1rem;
+  }
+
+  #intro-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1394px) {
+  body {
+    color: lightblue;
+  }
+}
+
+@media (min-width: 1394px) {
+  body {
+    color: red;
+  }
 }
