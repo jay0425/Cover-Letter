@@ -85,7 +85,7 @@ section {
 #intro div {
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-betwee; */
   align-items: center;
 }
 
@@ -94,6 +94,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-left: 25rem;
 }
 
 #intro h3 strong {
@@ -319,7 +321,7 @@ footer {
   }
 
   section {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   h2 {
@@ -347,9 +349,9 @@ footer {
   }
 
   #intro img {
-    width: 70%;
+    width: 68%;
     border-radius: 13px;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   #intro h3 {
@@ -358,17 +360,20 @@ footer {
     justify-content: center;
     align-items: center;
 
-    font-size: 1rem;
-  }
+    margin-left: 0rem;
 
-  #intro h3 div {
-    padding: 0;
+    font-size: 0.85rem;
+
+    text-align: center;
   }
 
   #intro h3 strong {
-    font-size: 150%;
+    font-size: 140%;
     transition: all 0.2s ease-in-out;
     position: relative;
+
+    /* strong 태그 안의 텍스트 줄바꿈 방지 */
+    white-space: nowrap;
   }
 
   #skill {
