@@ -353,6 +353,6 @@ footer {
 
 @media (min-width: 1394px) {
   body {
-    color: red;
+    /* color: red; */
   }
 }
