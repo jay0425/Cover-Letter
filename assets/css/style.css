@@ -363,8 +363,6 @@ footer {
     white-space: nowrap;
   }
 
-  /* ------------------------------------------------------------------ */
-
   #skill {
     width: 100%;
   }
@@ -377,6 +375,8 @@ footer {
     font-size: 0.8rem;
   }
 
+  /* ------------------------------------------------------------------ */
+
   #portfolio ul {
     list-style: none;
     display: flex;
@@ -387,7 +387,7 @@ footer {
   }
 
   .box {
-    width: 25rem;
+    width: 10rem;
     height: 34rem;
     position: relative;
     transform-style: preserve-3d;
