@@ -16,8 +16,9 @@
 
 header {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 1rem 15rem;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: lightgray;
+  padding: 1rem 15rem 1rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
