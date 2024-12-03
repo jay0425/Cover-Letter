@@ -145,9 +145,13 @@ section {
 #portfolio ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 60%;
   padding-top: 20px;
+}
+
+.portfolio-contents {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 5rem; */
 }
 
 .content {
