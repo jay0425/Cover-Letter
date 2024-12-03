@@ -144,6 +144,30 @@ section {
   align-items: center;
 }
 
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-sass {
+  color: purple;
+}
+
+.fa-js {
+  color: rgb(240, 240, 17);
+}
+
+.fa-react {
+  color: rgb(3, 199, 238);
+}
+
+.fa-square-git {
+  color: red;
+}
+
 #portfolio ul {
   list-style: none;
   display: flex;
