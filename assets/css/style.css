@@ -79,7 +79,9 @@ section {
 #intro div {
   padding-top: 20px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 5rem;
 }
 
 #intro h3 {
@@ -88,7 +90,7 @@ section {
   justify-content: center;
   align-items: center;
 
-  margin-left: 25rem;
+  /* margin-left: 25rem; */
 }
 
 #intro h3 strong {
@@ -236,7 +238,7 @@ section {
 }
 
 .back-hr {
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 
 .back-wrapper ul {
@@ -258,7 +260,7 @@ section {
 
 .back-wrapper p {
   font-size: 1rem;
-  margin: 0.5rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .back-wrapper a {
@@ -317,6 +319,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* ---------------------------------------------------------------------------------- */
+/* ------------------------------------mobile---------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
 
 @media (max-width: 600px) {
   header {
@@ -391,7 +397,7 @@ footer {
   }
 
   #skill ul {
-    padding: 20px 0 0 0;
+    padding: 1rem 0 0 0;
   }
 
   #skill ul li {
@@ -566,17 +572,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 1394px) {
-  body {
-    color: lightblue;
-  }
-}
-
-@media (min-width: 1394px) {
-  body {
-    /* color: red; */
   }
 }
